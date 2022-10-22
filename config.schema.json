@@ -1,0 +1,16 @@
+{
+  "pluginAlias": "rpiSmartHome",
+  "pluginType": "platform",
+  "singular": true,
+  "schema": {
+    "type": "object",
+    "properties": {
+      "name": {
+        "title": "raspberry pi smart home gpio radio transmit",
+        "type": "string",
+        "required": true,
+        "default": "rpiSmartHome"
+      }
+    }
+  }
+}
